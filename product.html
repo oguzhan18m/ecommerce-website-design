@@ -29,17 +29,16 @@
 
     <title> huntgo | Home</title>
 </head>
-
 <body>
-    <div class="my-container">
-    <!-- NAVIGATION STARTS-->
+        <div class="product-container">
 
+<!--NAVIGATION STARTS-->
 <div class="nav">
     <div class="menu-open">
         <ion-icon name='menu'></ion-icon>
     </div>
 
-    <div class="brand" >
+    <div class="brand">
         <span><a href="index.html"> huntgo </a></span>
     </div>    
     <div class="cart">
@@ -67,90 +66,61 @@
         </div>
     </div>
 </div>
-<!-- NAVIGATION ENDS-->
-<!-- HERO SECTION STARTS-->
-<div class="hero-section">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-6 hero-left">
-                <div class="tagline">
-                    <p class="wow fadeInUp">Useful tools to stimulate <br> planning,productivity and <br> creativity.  </p>
-                </div>
-                <div class="shipping">
-                    <p class="wow fadeInUp" data-wow-delay= "0.5s">
-                        Complimentary ground shipping on U.S. orders 30$ +
-                    </p>
-                </div>
+
+<!--NAVIGATION ENDS-->
+
+<div class="whitespaces"></div>
+
+<!--PRODUCT STARTS-->
+<div class="container-fluid">
+    <div class="row product-sec">
+        <div class="col-lg-6 prod-left">
+            <div class="hero-image">
+                <img src="images/hero.jpg" class="img wow fadeInUp" alt="">
             </div>
-            <div class="col-right-6 hero-right">
-                <div class="hero-image">
-                    <img src="images/hero.jpg" class="img wow fadeInUp"  data-wow-delay= "0.3s" alt="">
+        </div>
+        <div class="col-lg-6 prod-right">
+            <div class="prod-opt">
+                <h3 id="prod-name" class="wow fadeInUp" data-wow-delay="0.4s">Daily Planner 2019/20</h3>
+                <p id="price" class="wow fadeInUp" data-wow-delay="0.5s"> USD 30.00$</p>
+
+                <div class="input-row">
+                    <input type="radio"  id="radio-input-1" checked>
+                    
+                    <label for="radio-input-1" 
+                    class="input-helper input-helper-radio wow fadeInUp" 
+                    data-wow-delay="0.6s"> add monogram (+$10.00)
+                    </label>
+
+                    <br>
+                    <input type="radio"  id="radio-input-2">
+                    
+                    <label for="radio-input-2" 
+                    class="input-helper input-helper-radio wow fadeInUp" 
+                    data-wow-delay="0.7s"> add gift wrap (+$5.00)
+                    </label>
+                    <br>
+
+                    <input type="number"  placeholder="Quantity" class=" wow fadeInUp" 
+                    data-wow-delay="0.8s">
+                    
+                    <input type="number"  placeholder="Size" class=" wow fadeInUp" 
+                    data-wow-delay="0.9s">
+
+                    <div class="add-prod wow fadeInUp"data-wow-delay="1s">
+                        <a href="#">Add to bag</a>
+                    </div>
+                    
                 </div>
             </div>
         </div>
-
-    </div>
-
-</div>
-
-<!-- HERO SECTION ENDS-->
-<!-- PRODUCT LIST STARTS-->
-
-    <div class="section prod-list">
-        <div class="container-fluid">
-            <div class="row some-cards">
-               
-                <div  class="col-lg-3 prod wow fadeInUp"  data-wow-delay= "0.5s">
-                    <a href="product.html">
-                        <p id="price">USD $20.00</p>
-                        <img src="images/prod-04.jpg" alt="">
-                        <p id="prod-desc">Daily Planner 2020 in Green</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 prod wow fadeInUp"  data-wow-delay= "0.7s">
-                    <a href="product.html">
-                        <p id="price">USD $30.00</p>
-                        <img src="images/prod-05.jpg" alt="">
-                        <p id="prod-desc">Daily Planner 2020 / in Blue</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 prod wow fadeInUp"  data-wow-delay= "0.9s">
-                    <a href="product.html">
-                        <p id="price">USD $10.00</p>
-                        <img src="images/prod-06.jpg" alt="">
-                        <p id="prod-desc">Daily Planner 2019 in Brown</p>
-                    </a>
-                </div>
-                <div class="col-lg-3 prod wow fadeInUp"  data-wow-delay= "1s">
-                    <a href="product.html">
-                        <p id="price">USD $25.00</p>
-                        <img src="images/prod-07.jpg" alt="">
-                        <p id="prod-desc">Daily Planner 2020 in Dark Brown</p>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-<!-- PRODUCT LIST ENDS-->
-<!-- BANNER SECTION STARTS-->
-<div class="row prod-sec wow fadeInUp" data-wow-delay= "0.5s" >
-    <div class="col-lg-6 prod-img">
-        <img src="images/single-prod.jpg" alt="">
-    </div>
-    <div class="col-lg-6 prod-desc wow fadeInUp" data-wow-delay= "0.8s" >
-        <br> <br>
-        <p> The way to get started is to quit talking and begin doing. 
-            Get started with our tools and boost your productivity. </p>
-            <div class="link wow flash">
-                <a href="shop.html" class="shopnow" >Shop Now <ion-icon name="arrow-forward-circle-outline"></ion-icon></a>
-            </div>
     </div>
 </div>
 
-<!-- BANNER SECTION ENDS-->
-<!-- CATEGORIES SECTION STARTS-->
+<!--PRODUCT ENDS-->
+
+
+<!--CATEGORIES SECTION STARTS-->
 <div class="container-fluid " >
     <div class="row section shop">
         <div class="col-lg-8 wow fadeInUp" data-wow-delay= "0.3s">
@@ -160,8 +130,8 @@
                 tools you may have at your command, and better
                 tools will be found as you go along.
             </p>
-            <div class="link wow flash">
-                <a href="shop.html" class="learnmore"> Learn More <ion-icon name="arrow-forward-circle-outline"></ion-icon></a>
+            <div class="link">
+                <a href="shop.html">Learn More <ion-icon name="arrow-forward-circle-outline"></ion-icon></a>
             </div>
         </div>
     </div>
@@ -194,9 +164,13 @@
     </div>
 </div>
 
-<!-- CATEGORIES SECTION ENDS-->
-<br><br><br>
-<!--FOOTER SECTION STARTS-->
+
+
+<!--CATEGORIES SECTION ENDS-->
+
+<div class="whitespaces"></div>
+
+<!--FOOTERS STARTS-->
 
 <div class="container-fluid footer wow fadeInUp" data-wow-delay= "0.3s">
     <div class="section container">
@@ -234,12 +208,13 @@
         </footer>
     </div>
 </div>
-<!--FOOTER SECTION ENDS-->
+
+<!--FOOTER ENDS-->
+
 </div>
+
 
 <script type="text/javascript" src="index.js"></script>
 
-
 </body>
-
 </html>
